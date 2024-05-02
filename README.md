@@ -8,4 +8,4 @@ Required child-theme structure/files (replace 'astra-child' with your child them
 
 /wordpress/wp-content/themes/astra-child/tribe-events/modules/map.php
 
-If directory/files don't exist create them first and insert the content of the corresponding files of this respository.
+If directory/files don't exist create them first and insert the content of the corresponding files of this repository.
