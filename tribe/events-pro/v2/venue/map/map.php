@@ -16,17 +16,5 @@
  *
  */
 
-// Check if coordinates are available
-if (
-	get_post_meta( $venue->ID, '_VenueOverwriteCoords', true )
-	&& ! empty( $venue->geolocation->latitude )
-	&& ! empty( $venue->geolocation->longitude )
-) {
-	// Create Leaflet shortcode
-	$lat = (float) $venue->geolocation->latitude;
-	$lng = (float) $venue->geolocation->longitude;
-	$shortcode = '[leaflet-map zoomcontrol lat="' . $lat . '" lng="' . $lng . '" zoom="14"]';
-	$shortcode .= '[leaflet-marker lat="' . $lat . '" lng="' . $lng . '"]'; 
-	echo do_shortcode($shortcode);
-}
+echo do_shortcode(generate_leaflet_shortcode());
 ?>
