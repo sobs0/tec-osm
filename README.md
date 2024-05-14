@@ -1,5 +1,8 @@
 # Extensions to use The Events Calendar maps in compliance with GDPR (+ a few helpful additional customisations)
 
+Save money and offer your users more privacy by replacing GoogleMaps with OpenStreetMaps on websites using The Events Calendar.
+
+
 ### Overview of customization results of this repository:
 
 - Display OpenStreetMap instead of Google Maps on The Events Calendar event detail page and venue page
@@ -9,7 +12,15 @@
 - Host Leaflet js und css files locally
 - Display custom global map marker
 
-These customizations will replace Google Maps which also means it will alow you to save money, as the alternative (OpenStreetMaps) is completely free to use.
+
+## Why?
+
+These customisations are mainly designed for European users of The Events Calendar plugin to make it compliant with GDPR rules because of the concerning role of Google APIs and data privacy. 
+If your concern is not about data privacy you might sill benefit from this customisation, as OpenStreetMaps is completely free of charge, unlike Google Maps.
+
+Both events have been ignored by the plugin manufacturer of The Events Calendar for years, so now there is this repository to put an end to it.
+
+Thanks to [Hans-Gerd](https://haurand.com/the-events-calendar-und-openstreetmaps/) and [Gerd Weyhing](https://woyng.com/the-events-calendar-mit-openstreetmaps-statt-google-maps/) for the inspiration.
 
 
 ## Required Plugins
