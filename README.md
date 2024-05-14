@@ -74,9 +74,11 @@ Note: You should regularly check for new versions of leaflet on their official w
 
 ### Custom global map marker
 
-Note: It is required to host the leaflet assets locally to implement this solution (see step before).
+It is required to host the leaflet assets locally to implement this solution (see step before). 
+Another way to show custom markers is to use the Leaflet shortcode option for that, e.g. to display differnet markers on different maps.
 
-In case you want to have a custom marker for your maps and you don't want to rely on Leaflet shortcodes options to specify the custom image for every shortcode, you can replace the image on your locally hosted leaflet assets folder.
+In case you want to have a custom marker for your maps and you don't want to rely on Leaflet shortcodes options to specify the custom image for every shortcode, you can replace the image on your locally hosted leaflet assets folder. This will change the marker globaly, so for every map on your site.
+
 
 #### Required steps:
 
