@@ -23,6 +23,7 @@ Thanks to [Hans-Gerd](https://haurand.com/the-events-calendar-und-openstreetmaps
 
 ## Required Plugins
 - The Events Calendar (TEC) (https://wordpress.org/plugins/the-events-calendar/)
+- The Events Calendar Pro (not required for all, but only tested in combination)
 - LeafletMap (https://de.wordpress.org/plugins/leaflet-map/)
 
 ## Customisations
@@ -40,7 +41,7 @@ Note: TEC uses different templates depending on using their provided GoogleMaps 
 - /wp-content/themes/astra-child/tribe-events/modules/meta/map.php
 - /wp-content/themes/astra-child/tribe-events/modules/map.php
 - /wp-content/themes/astra-child/tribe-events/modules/map-basic.php
-- /wp-content/themes/astra-child/tribe/events-pro/v2/venue/map/map.php
+- /wp-content/themes/astra-child/tribe/events-pro/v2/venue/meta/map.php (requires TEC pro)
 - /wp-content/themes/astra-child/includes/leaflet-functions.php
 
 If directory/files don't exist create them first and then insert the content of the corresponding files of this repository.
