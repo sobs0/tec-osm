@@ -52,6 +52,9 @@ You can then use this shortcode in your favourite page builder to show a map of 
 To create this shortcode we use our custom function and pass an argument to get a shortcode for all existing venues of this page "generate_leaflet_shortcode(array('all-venues'))".
 
 ```
+// Import the functions of leaflet-functions.php 
+require_once( get_stylesheet_directory() . '/includes/leaflet-functions.php' );
+
 /**
 * Create shortcode [tribe_venue_map] to display all venues map on homepage
 */
